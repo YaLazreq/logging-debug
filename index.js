@@ -61,12 +61,7 @@ exports.pubsubTriggeredFunction = onMessagePublished('test-topic', async (messag
 
         console.log("test 5"); // ❌ Echec
 
-        // logger.info("Processing message : rideID => ", params.rideId, ", team => ", params.team);
-        // await delay(120000);
-        // logger.info("Finished processing message : rideID => ", params.rideId, ", team => ", params.team);
-        // logger.info("Query successful : rideID => ", params.rideId, ", team => ", params.team);
     } catch (error) {
-        // logger.error(`Internal Error Server : ${error}`);
     }
 })
 
